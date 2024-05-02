@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+.TEST1{
+    background-image: url("images/sunset.jpg");
+    background-size: cover;
+    width: 1920px;
+    height: 600px;
+}
+
+.TEST1 p{
+    color: white;
+    font-size: 50px;
+    font-weight:bold;
+    object-fit: cover;
+}
+
+.TEST2{
+    background-image: url("images/sunset.jpg");
+    background-size: cover;
+    background-position: center;
+    width:1600px;
+    height:400px;
+    text-align: center;
+}
+
+.TEST2 p{
+    color: white;
+    font-size: 50px;
+    font-weight:bold;
+
+    text-align: center;
+}
+
+.TEST3 img{
+    width: 260px;
+    height:260px;
+    border-radius: 50%;/*角丸*/
+    object-fit:cover;
+}
+
+.TEST4{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.TEST4 img{
+    text-align: center;
+    width: 30%;
+    margin: 0 0 50px;
+}
