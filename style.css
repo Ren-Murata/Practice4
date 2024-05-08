@@ -5,6 +5,7 @@
     background-size: cover;
     width: 1920px;
     height: 600px;
+    background-repeat: no-repeat;
 }
 
 .TEST1 p{
@@ -17,17 +18,20 @@
 .TEST2{
     background-image: url("images/sunset.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
-    width:1600px;
-    height:400px;
+    width:1100px;
+    height: 400px;
     text-align: center;
+    margin: 0 auto;
 }
+
+
 
 .TEST2 p{
     color: white;
-    font-size: 50px;
+    font-size: 30px;
     font-weight:bold;
-
     text-align: center;
 }
 
@@ -36,6 +40,12 @@
     height:260px;
     border-radius: 50%;/*角丸*/
     object-fit:cover;
+}
+
+.TEST3{
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .TEST4{
